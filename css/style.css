@@ -6,7 +6,9 @@ html, body {
 }
 
 body {
-  background: url(../images/backgrounds/architecture.jpg) center no-repeat;
+  background-color: black;
+    background: linear-gradient(to bottom, #ee3305, #c9bdb4);
+  
   background-size: cover;
   background-attachment: fixed;
   font-family: Helvetica, Arial, sans-serif;
@@ -25,22 +27,22 @@ body {
 }
 
 h1, h2 {
-  font-family: 'Gabriela', serif;
-  color: #fff;
+  font-family: 'Times New Roman', Times, serif;
+  color: #0cd2e0;
 }
 
 h1 {
-  font-size: 3.5em;
+  font-size: 10px;
   margin-bottom: 0;
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: 5px;
   margin-top: .5em;
 }
 
 h3 {
-  font-family: 'Gabriela', serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 1.5em;
   margin-top: .5em;
 }
@@ -52,7 +54,9 @@ img {
 }
 
 p {
-  font-size: 1em;
+  font-size: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: brown;
 }
 
 a {
@@ -82,5 +86,8 @@ a:hover {
   }
   .wrapper {
     width: 95%;
+  }
+  ul {
+    list-style-type: none;
   }
 }
